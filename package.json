@@ -1,0 +1,38 @@
+{
+  "name": "rect-pack",
+  "version": "0.0.1",
+  "description": "A library to pack rectangles into one big rectangle",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-node src/test.ts",
+    "build": "tsc src/index.ts -d --outDir dist --target esnext --moduleResolution node -m commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Eronana/rect-pack.git"
+  },
+  "keywords": [
+    "rectangle",
+    "image",
+    "texture",
+    "pack"
+  ],
+  "author": "Erona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eronana/rect-pack/issues"
+  },
+  "homepage": "https://github.com/Eronana/rect-pack#readme",
+  "devDependencies": {
+    "@types/get-pixels": "^3.3.2",
+    "@types/ndarray": "^1.0.11",
+    "@types/node": "^18.6.5",
+    "@types/save-pixels": "^2.3.2",
+    "canvas": "^2.9.3",
+    "get-pixels": "^3.3.3",
+    "ndarray": "^1.0.19",
+    "save-pixels": "^2.3.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
